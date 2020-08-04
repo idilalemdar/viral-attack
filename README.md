@@ -1,3 +1,3 @@
 # CENG453 course project by group24
 
-Please refer to the wiki page for further information.
+Please refer to the docs folder for further information.
