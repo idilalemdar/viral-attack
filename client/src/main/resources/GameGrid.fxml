@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="generalLayout" maxHeight="-Infinity" maxWidth="-Infinity"
+          minHeight="-Infinity" minWidth="-Infinity"
+          prefHeight="600.0" prefWidth="800.0"
+          style="-fx-background-color: #FFFF66;"
+          xmlns="http://javafx.com/javafx/11.0.1"
+          xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints fx:id="col0" hgrow="SOMETIMES" />
+    <ColumnConstraints fx:id="col1" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col2" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col3" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col4" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col5" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col6" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col7" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col8" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col9" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col10" hgrow="SOMETIMES" />
+      <ColumnConstraints fx:id="col11" hgrow="SOMETIMES" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints fx:id="row11" vgrow="SOMETIMES" />
+    <RowConstraints fx:id="row10" vgrow="SOMETIMES" />
+    <RowConstraints fx:id="row9" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row8" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row7" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row6" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row5" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row4" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row3" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row2" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row1" vgrow="SOMETIMES" />
+      <RowConstraints fx:id="row0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>

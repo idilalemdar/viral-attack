@@ -1,0 +1,46 @@
+package group24.client;
+
+public class Constants {
+    public static final int cellWidth = 50;
+    public static final int cellHeight = 50;
+    public static final int missileWidth = cellWidth/2;
+    public static final int missileHeight = cellHeight/2;
+    public static final double level4InitRow = 40;
+    public static final int CovidScale = 7;
+    public static final double CovidInitX = 250;
+    public static final double CovidInitY = 30;
+    public static final double MERSInitX = 400;
+    public static final double MERSInitY = 250;
+    public static final double SARSInitX = 400;
+    public static final double SARSInitY = 200;
+    public static final int H5N1RowCount = 3;
+    public static final  int H5N1ColumnCount = 12;
+    public static final double H5N1ColumnSpace = 65;
+    public static final double H5N1RowSpace = 60;
+    public static final double R = 0.592156862745098;
+    public static final double G = 0.00784313725490196;
+    public static final double B = 0.5333333333333333;
+    public static final int PlayerHP = 9;
+    public static final int H5N1HP = 2;
+    public static final int SARSHP = 5;
+    public static final int MERSHP = 10;
+    public static final int CovidHP = 300;
+    public static final double AlienStep = 50;
+    public static final int SmallAlienGridCheck = 50;
+    public static final int BossGridCheck = 250;
+    public static final int WinnerBonus = 100;
+    public static final double MissileStep = 40;
+    public static final long MoveMersFrequency = 250000000;
+    public static final long MoveSarsFrequency = 250000000;
+    public static final long MoveCovidFrequency = 100000000;
+    public static final long PlayerShootFrequency = 250000000;
+    public static final long SarsShootFrequency = 1000000000;
+    public static final long MersShootFrequency = 600000000;
+    public static final long CovidShootFrequency = 350000000;
+    public static final long MoveMissileFrequency = 150000000;
+    public static final String senderDestinationHost = "localhost";
+    public static final int SenderPort = 8081;
+    public static final int ReceiverPort = 8084;
+    public static final long FourthLevelScore = 1050;
+    public static final String ReceiverHost = "localhost";
+}

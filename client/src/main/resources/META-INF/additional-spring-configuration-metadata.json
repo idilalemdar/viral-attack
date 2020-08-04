@@ -1,0 +1,43 @@
+{
+  "properties": [
+    {
+      "name": "spring.application.ui.title",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.ui.title."
+    },
+    {
+      "name": "spring.application.ui.windowHeight",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.ui.windowHeight."
+    },
+    {
+      "name": "spring.application.ui.windowWidth",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.ui.windowWidth."
+    },
+    {
+      "name": "spring.application.apiAddress",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.apiAddress."
+    },
+    {
+      "name": "spring.application.cellWidth",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.cellWidth."
+    },
+    {
+      "name": "spring.application.cellHeight",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.cellHeight."
+    },
+    {
+      "name": "spring.application.playerY",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.playerY."
+    },
+    {
+      "name": "spring.application.maxPlayerX",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.maxPlayerX."
+    }
+  ] }

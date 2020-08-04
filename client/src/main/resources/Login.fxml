@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.geometry.Insets?>
+
+<VBox fx:id="generalLayout"
+      prefHeight="0.0"
+      maxWidth="800.0"
+      xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1"
+      spacing="15">
+    <Label fx:id="info" alignment="TOP_CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308"
+           maxWidth="1.7976931348623157E308" textAlignment="CENTER" text="Login" style="-fx-font-weight: bold">
+        <font>
+            <Font size="24.0" name="Tahiti"/>
+        </font>
+    </Label>
+    <TextField fx:id="username" alignment="CENTER" layoutX="10.0" layoutY="10.0" maxHeight="30.0"
+               maxWidth="200.0" promptText="Username" VBox.vgrow="NEVER"/>
+    <padding><Insets top="170" right="50" bottom="330" left="300"/></padding>
+    <PasswordField fx:id="password" alignment="CENTER" layoutX="159.0" layoutY="10.0" maxHeight="30.0"
+                   maxWidth="200.0" promptText="Password" VBox.vgrow="NEVER"/>
+    <padding><Insets top="170" right="300" bottom="330" left="300"/></padding>
+    <Button fx:id="button_signin" alignment="CENTER" maxWidth="200" maxHeight="70" mnemonicParsing="false" text="Login" VBox.vgrow="NEVER"/>
+    <padding><Insets top="170" right="300" bottom="330" left="300"/></padding>
+    <Button fx:id="button_back" alignment="TOP_LEFT" maxWidth="130" maxHeight="70" mnemonicParsing="false" text="Back to Home"
+            VBox.vgrow="NEVER"/>
+    <Label fx:id="label" alignment="TOP_CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308"
+           maxWidth="1.7976931348623157E308" textAlignment="CENTER">
+        <font>
+            <Font size="14.0" name="Tahiti"/>
+        </font>
+    </Label>
+
+</VBox>

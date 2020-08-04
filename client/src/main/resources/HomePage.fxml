@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox fx:id="generalLayout"
+      maxHeight="600.0"
+      maxWidth="800.0"
+      xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <VBox fx:id="buttonsLayout" prefHeight="0.0" prefWidth="600.0" spacing="10">
+        <Button fx:id="button_register" minWidth="200" minHeight="50" mnemonicParsing="false" text="Register" HBox.hgrow="ALWAYS"/>
+        <padding><Insets top="220" right="100" bottom="330" left="305"/></padding>
+        <Button fx:id="button_login" layoutX="10.0" layoutY="10.0" minWidth="200" minHeight="50"
+                mnemonicParsing="false" text="Login" HBox.hgrow="ALWAYS"/>
+        <padding><Insets top="220" right="100" bottom="330" left="305"/></padding>
+    </VBox>
+    <Label fx:id="info" alignment="TOP_CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308"
+           maxWidth="1.7976931348623157E308" textAlignment="CENTER">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Label>
+</VBox>
+
